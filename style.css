@@ -1,0 +1,25 @@
+nav{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: steelblue;
+}
+
+li{
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: salmon;
+    font-size: 1.2em;
+    
+}
+
+li:hover{
+    color: white;
+    font-weight: 700;
+}
